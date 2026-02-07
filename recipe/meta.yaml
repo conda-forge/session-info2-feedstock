@@ -1,5 +1,5 @@
 {% set name = "session-info2" %}
-{% set version = "0.3" %}
+{% set version = "0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/session_info2-{{ version }}.tar.gz
-  sha256: 70500cf970d4eca3bc9e1e14a849a31a5bb626637d8e801d95ca51296c876100
+  sha256: bb01bf7c320301d6cbcfad36b85cca7befe537ffd60269be38ae9e1a956f4aa4
 
 build:
   noarch: python
